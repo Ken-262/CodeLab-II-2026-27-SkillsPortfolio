@@ -207,7 +207,7 @@ individualButton = Button(root, text="2. View Individual Student Record",
 individualButton.pack(pady=3)
 
 # This button displays the student with the highest score.
-highestButton = Button(root, text="3. Show Highest Total Score",
+highestButton = Button(root, text="3. Show the student with Highest Total Score",
                        command=highestStudent,
                        font=("Cute Dino", 13),
                        bg="#DCEAF4",
@@ -219,7 +219,7 @@ highestButton = Button(root, text="3. Show Highest Total Score",
 highestButton.pack(pady=3)
 
 # This button displays the student with the lowest score.
-lowestButton = Button(root, text="4. Show Lowest Total Score",
+lowestButton = Button(root, text="4. Show the student with Lowest Total Score",
                       command=lowestStudent,
                       font=("Cute Dino", 13),
                       bg="#DCEAF4",
